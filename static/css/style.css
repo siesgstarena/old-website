@@ -1,0 +1,40 @@
+html {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #4a4a4a;
+}
+
+body {
+	background-color: #1A1A1A;
+	color: white;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+
+.thin {
+	font-weight: 300;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.row {
+	display: block;
+	padding: 40px 10px;
+}
+
+.links {
+	text-align: center;
+}
+
+.links a {
+	color: #3875ED;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.justify-center {
+	margin: 0px auto;
+}
