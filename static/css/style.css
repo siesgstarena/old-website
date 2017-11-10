@@ -1,40 +1,151 @@
-html {
-	font-family: 'Roboto Condensed', sans-serif;
-	color: #4a4a4a;
+html, body, input {
+    font-family: medium-content-sans-serif-font, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans","Helvetica Neue", sans-serif!important;
+    letter-spacing: 0!important;
+    font-weight: 400!important;
+    font-style: normal!important;
+    color: rgba(0,0,0,.76)!important;
+    fill: rgba(0,0,0,.76)!important;
 }
-
-body {
-	background-color: #1A1A1A;
-	color: white;
+.gstarena-brand {
+	font-family: medium-marketing-display-font,Georgia,Cambria,"Times New Roman",Times,serif!important;
 }
-
-h1, h2, h3, h4, h5 {
-	font-weight: normal;
+.footer-link {
+	font-size: 0.8rem !important;
 }
-
-.thin {
-	font-weight: 300;
+.footer-border {
+	margin-top: 32px;
+	padding-top: 8px;
 }
-
-.bold {
-	font-weight: 600;
+.black-text {
+	color: rgba(0,0,0,.84)!important;
+    fill: rgba(0,0,0,.84)!important;
 }
-
-.row {
+.pad-1 {
+	padding-top: 1rem;
+}
+.pad-1-b {
+	padding-bottom: 0.5rem;
+}
+.pad-2 {
+	padding-top: 2rem;
+}
+.pad-4 {
+	padding-top: 4rem;
+}
+.pad-6 {
+	padding-top: 6rem;
+}
+.pad-8 {
+	padding-top: 8rem;
+}
+.pad-10 {
+	padding-top: 10rem;
+}
+.border-bottom {
+	border-bottom: 1px solid rgba(0,0,0,.05);
+}
+.border-top {
+	border-top: 1px solid rgba(0,0,0,.05);
+}
+.post-box {
+	margin: 0.5rem;
+	min-height: 0px;
+	border: 1px solid rgba(0,0,0,.1)!important;
+	border-radius: 3px;
+}
+.post-img-div {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.post-img {
+	height: 100%;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.post-title {
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+}
+.post-body {
+	padding-top: 0.5rem;
+	font-size: 0.85rem;
+	color: rgba(0,0,0,.64)!important;
+    fill: rgba(0,0,0,.64)!important;
 	display: block;
-	padding: 40px 10px;
+	-webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
 }
-
-.links {
+.post-author {
+	display: block;
+	padding-top: 1rem;
+}
+.post-author img {
+	border: 1px solid rgba(0,0,0,.34)!important;
+	padding: 0.2rem;
+	width: 2.8rem;
+	border-radius: 50%;
+}
+.author-name {
+	color: rgba(0,0,0,.54);
+	font-size: 0.8rem;
+}
+.post-date {
+	color: rgba(0,0,0,.54);
+	font-size: 0.8rem;
+	padding-top: 2rem;
+	float: right;
+}
+.post-action {
+	font-size: 1.6rem !important;
+	color: rgba(0,0,0,.64)!important;
+    fill: rgba(0,0,0,.64)!important;
+    vertical-align: middle;
+}
+@media screen and (min-width: 1080px) {
+    .post-author {
+        padding-top: 2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+	.pad-8 {
+		padding-top: 2rem;
+	}
+	.pad-10 {
+		padding-top: 2rem;
+	}
+	.post-img {
+		max-height: 200px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.pad-10 {
+		padding-top: 6rem;
+	}
+}
+@media screen and (max-width: 1080px) {
+	.pad-10 {
+		padding-top: 6rem;
+	}
+}
+.navbar-light {
+	background-color: white !important;
+}
+.team-lead {
+	font-size: 1.1rem;
+	font-family: medium-marketing-display-font,Georgia,Cambria,"Times New Roman",Times,serif!important;
+}
+.centered {
 	text-align: center;
 }
-
-.links a {
-	color: #3875ED;
-	text-decoration: none;
-	padding: 10px;
+.team-img {
+	display: block;
+	margin: 1rem auto;
+	border-radius: 50%;
+	width: 50%;
 }
-
-.justify-center {
-	margin: 0px auto;
+.text-h {
+	line-height: 2rem;
 }
