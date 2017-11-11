@@ -149,3 +149,6 @@ html, body, input {
 .text-h {
 	line-height: 2rem;
 }
+a {
+	text-decoration: none !important;
+}
