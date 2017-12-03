@@ -152,3 +152,6 @@ html, body, input {
 a {
 	text-decoration: none !important;
 }
+.post-body a {
+	color: #013BFF;
+}
