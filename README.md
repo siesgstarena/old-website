@@ -1,4 +1,4 @@
-# gstarena.github.io
+# siesgstarena.github.io
 Official website of CodeChef SIES GST Campus Chapter
 
 ### Contributions
